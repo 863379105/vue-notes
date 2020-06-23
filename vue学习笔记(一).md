@@ -46,7 +46,7 @@
 
 - ### 浏览器渲染效果
 
-![hello](/Users/lb/Desktop/Code_Space/notes/VUE学习笔记/images/hello.png)
+![hello](images/hello.png)
 
 ## 2.new Vue()的几点总结：
 
@@ -72,15 +72,15 @@
 
 ## 3.template 和 render()
 
-	### 	template和render()都是用于渲染模版的，但两者有一定差异
+  #### template和render()都是用于渲染模版的，但两者有一定差异
 
-  - ##### template的渲染顺序：template => Vdom => html
+- ##### template的渲染顺序：template => Vdom => html
 
-    ##### render()的渲染顺序：Vdom => html
+  ##### render()的渲染顺序：Vdom => html
 
-    ##### 相比之下，render()的渲染效率更高，只通过两个步骤对试图进行渲染
+  ##### 相比之下，render()的渲染效率更高，只通过两个步骤对试图进行渲染
 
-		- ##### 相比于template，render()更接近Vue的底层实现，渲染速度更快，提供的方法也更为复杂，更为灵活
+- ##### 相比于template，render()更接近Vue的底层实现，渲染速度更快，提供的方法也更为复杂，更为灵活
 
 ## 4.render()的使用
 
